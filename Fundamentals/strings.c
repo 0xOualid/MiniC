@@ -26,8 +26,7 @@ int main(void) {
 
     if (strncmp(name, "John", 4) == 0) {
         printf("Hello, John!\n");
-    }
-    else {
+    } else {
         printf("You are not John. Go away.\n");
     }
 

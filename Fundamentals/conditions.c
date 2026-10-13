@@ -25,8 +25,7 @@ int main(void) {
 
     if (isLoggedIn && (isAdmin || securityLevel <= 2)) {
         printf("Access granted\n");
-    }
-    else {
+    } else {
         printf("Access denied\n");
     }
 
@@ -49,12 +48,10 @@ int main(void) {
 
         if (is_citizen) {
             printf("And you are a citizen, so you can vote!\n");
-        }
-        else {
+        } else {
             printf("But you must be a citizen to vote.\n");
-        } 
-    }
-    else {
+        }
+    } else {
         printf("Not old enough to vote.\n");
     }
 
@@ -80,11 +77,9 @@ int main(void) {
 void guess_number(int guess) {
     if (guess > 555) {
         printf("Your guess is too high.\n");
-    }
-    else if (guess < 555) {
+    } else if (guess < 555) {
         printf("Your guess is too low.\n");
-    }
-    else {
+    } else {
         printf("Correct. You guessed it!\n");
     }
 }
